@@ -32,29 +32,15 @@ public class BankAccount {
 	}
 
 
-	public void setCheckingBalance(double checkingBalance) {
-		this.checkingBalance = checkingBalance;
-	}
-
-
 	//Savings Accounts
 	public double getSavingsBalance() {
 		return savingsBalance;
 	}
 
 
-	public void setSavingsBalance(double savingsBalance) {
-		this.savingsBalance = savingsBalance;
-	}
-
 	//Total Accounts
 	public static int getTotalAccounts() {
 		return totalAccounts;
-	}
-
-
-	public static void setTotalAccounts(int totalAccounts) {
-		BankAccount.totalAccounts = totalAccounts;
 	}
 
 
@@ -63,10 +49,6 @@ public class BankAccount {
 		return totalAccountBalances;
 	}
 
-
-	public static void setTotalAccountBalances(int totalAccountBalances) {
-		BankAccount.totalAccountBalances = totalAccountBalances;
-	}
 	
 	//Deposits 
 	public void makeDeposits(double depositAmount, String accountType) {
